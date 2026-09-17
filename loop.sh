@@ -3,6 +3,6 @@
 while true; do
     echo "a" >> README.md &&
     git add . &&
-    git commit -m "a" &&
-    git push
+    git commit -m "a" #&&
+    #git push
 done
